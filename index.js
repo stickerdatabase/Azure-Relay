@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'v.ardabiloshakhlari.online';
+const TARGET_URL = 'v.ardabiloshakhlari.online:34088';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
